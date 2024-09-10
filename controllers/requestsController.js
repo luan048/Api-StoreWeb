@@ -109,7 +109,7 @@ async function upProduct(id_request, newProduct) {
         console.log('Valor Atualizado')
     }
 
-    catch (ex) { // Se der errado try, vai para esse
+    catch (ex) {
         console.log('Ocorreu erro no postCarros. Erro: '+ex)
     }
 
